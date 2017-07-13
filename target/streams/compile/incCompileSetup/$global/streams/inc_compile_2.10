@@ -1,0 +1,599 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.10.5
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+18 items
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment$$anonfun$main$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment$.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1$$anonfun$apply$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$main$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$anonfun$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$typecreator1$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$typecreator2$1.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$.class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing.class
+binary dependencies:
+20 items
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /home/cai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /home/cai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /home/cai/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> /usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+0 items
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+18 items
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> IndexAssignment
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> IndexAssignment$
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> IndexAssignment$$anonfun$main$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$dataLogCal$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$dataLogCal$1$$anonfun$apply$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$emTrainNaiveBayes$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$main$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$modelLogCal$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$modelLogCal$2
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> preprocessing
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> preprocessing$
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> preprocessing$$anonfun$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> preprocessing$$typecreator1$1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> preprocessing$$typecreator2$1
+used names:
+402 items
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> $
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> <init>
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> <repeated>
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> ===
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Any
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> AnyRef
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Array
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> ArrayOps
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Boolean
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Column
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> ColumnName
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> DataFrame
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> DataFrameReader
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> DataFrameWriter
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Function1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> GroupedData
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> IndexAssignment
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Int
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Level
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Logger
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Long
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Nothing
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> OFF
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Object
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Predef
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Row
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> SQLContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> SparkConf
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> SparkContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> String
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> StringContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> StringIndexer
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> StringIndexerModel
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> StringToColumn
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> T
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> TestSet
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> TrainingSet
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> U
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> Unit
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> apache
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> apply
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> arrayOfCat
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> cache
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> category
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> categorySet
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> count
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> distinct
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> feature
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> first
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> fit
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> flag
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> foreach
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> get
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> getAs
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> getLogger
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> getOutputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> groupBy
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> implicits
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> indexerAssign
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> log4j
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> max
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> ml
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> numCate
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> org
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> parquet
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> println
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> read
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> refArrayOps
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> repartition
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> sc
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> scala
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> select
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> setAppName
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> setInputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> setLevel
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> setOutputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> show
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> spark
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> sql
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> sqlContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> take
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> test
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> tmpTest
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> tmpTrain
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> toInt
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> train
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> transform
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> unionAll
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> where
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> write
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> $
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> *
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> +
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> -
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> /
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> <
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> <byname>
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> <init>
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> <repeated>
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> >=
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Accumulator
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> AccumulatorParam
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Any
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> AnyRef
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Array
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> ArrayOps
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Boolean
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Breaks
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> ClassTag
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Column
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> ColumnName
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> DataFrame
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> DataFrameReader
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Double
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> DoubleAccumulatorParam
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Function1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Function2
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> GroupedData
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> HashingTF
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Inclusive
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Int
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Level
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Logger
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Matrix
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> MulticlassClassificationEvaluator
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> NaiveBayes
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> NaiveBayesModel
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Nothing
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> NumSupervisedItems
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> OFF
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Object
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Pipeline
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> PipelineModel
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> PipelineStage
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Predef
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Range
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> RichInt
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Row
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> SQLContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> SparkConf
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> SparkContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> StopWordsRemover
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> String
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> StringContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> StringIndexer
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> StringToColumn
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> T
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> U
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Unit
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> Vector
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> _$6
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> abs
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> absDif
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> absSum
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> acc
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> accSup
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> accumulator
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> add
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> apache
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> apply
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> break
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> breakable
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> category
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> classification
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> combinedTrainingSet
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> control
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> corpusTest
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> corpusTrain
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> data
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> dataLogCal
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> dataLogProb
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> drop
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> e
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrain
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> emTrainNaiveBayes
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> epoch
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> evaluate
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> evaluation
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> evaluator
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> feature
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> first
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> fit
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> foreach
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> foreachActive
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> getAs
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> getDouble
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> getLogger
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> getOutputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> getPredictionCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> getProbabilityCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> getRawPredictionCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> groupBy
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> hashingTF
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> i
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> implicits
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> ind
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> indexer
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> intArrayOps
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> intWrapper
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> j
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> labeledTrain
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> lastLogProb
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> lastModel
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> linalg
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> log
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> log4j
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> logProb
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> materializeClassTag
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> math
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> max
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> maxEpoch
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> minImprovement
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> ml
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> mllib
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> model
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> modelLogCal
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> modelLogProb
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> naiveBayes
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> numCate
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> numCols
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> numRows
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> numSupervisedItems
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> org
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> package
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> parquet
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> pi
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> prediction
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> preproPipe
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> println
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> read
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> relativeDif
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> relativeDiff
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> row
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> s
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> sc
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> scala
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> select
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setAppName
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setFeaturesCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setInputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setLabelCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setLevel
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setModelType
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setOutputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setSmoothing
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> setStages
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> smoothing
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> spark
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> sparseVector
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> sql
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> sqlContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> stopWordsRemover
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> supervisedModel
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> supervisedPrediction
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> test
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> theta
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> to
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> toInt
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> train
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> transform
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> unionAll
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> unlabeledTrain
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> until
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> util
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> value
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> where
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> withColumnRenamed
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> x
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> y
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> $
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> $m
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> $m$untyped
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> $typecreator1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> $typecreator2
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> $u
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> <:<
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> <init>
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> <repeated>
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ?0
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> A
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> A1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Any
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> AnyRef
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Array
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> B
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> BuildApi
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Class
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ClassLoader
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ClassSymbol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Column
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ColumnName
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> DataFrame
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> DataFrameReader
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> DataFrameWriter
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Function1
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> GenTraversableOnce
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> GroupedData
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> InputStream
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Int
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> JavaUniverse
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> List
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Mirror
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ModuleSymbol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Nil
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Nothing
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Object
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Predef
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> RT
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> RegexTokenizer
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> RootClass
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> SQLContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Seq
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> SingleType
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> SingleTypeExtractor
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Singleton
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> SparkConf
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> SparkContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> String
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> StringContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> StringToColumn
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Symbol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> System
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> T
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> T0
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ThisType
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ThisTypeExtractor
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Type
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> TypeCreator
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> TypeRef
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> TypeRefExtractor
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> TypeSymbol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> TypeTag
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> U
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Unit
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> Universe
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> UserDefinedFunction
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> agg
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> apache
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> apply
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> as
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> asInstanceOf
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> asModule
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> build
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> collect_list
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> collection
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> conforms
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> df
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> drop
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> feature
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> flatten
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> functions
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> getClass
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> getClassLoader
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> getItem
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> groupBy
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> immutable
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> implicits
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> in
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> input_file_name
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> java
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> lang
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> materializeTypeTag
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> ml
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> moduleClass
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> newsGroups
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> org
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> package
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> parquet
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> preprocessing
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> read
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> reflect
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> regexTokenizer
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> runtime
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> runtimeMirror
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> sc
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> scala
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> select
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> selectType
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> setAppName
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> setInputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> setMinTokenLength
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> setOutputCol
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> setPattern
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> spark
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> split
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> sql
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> sqlContext
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> staticClass
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> staticModule
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> staticPackage
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> symbolToColumn
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> testdf
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> testnewsGroups
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> text
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> thisPrefix
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> transform
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> udf
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> universe
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> withColumn
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> write
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> xs
+product stamps:
+18 items
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment$$anonfun$main$1.class -> lastModified(1499931773000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment$.class -> lastModified(1499931773000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment.class -> lastModified(1499931773000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1$$anonfun$apply$1.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$main$1.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$1.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class -> lastModified(1499933328000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain.class -> lastModified(1499933327000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$anonfun$1.class -> lastModified(1499931773000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$typecreator1$1.class -> lastModified(1499931773000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$typecreator2$1.class -> lastModified(1499931773000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$.class -> lastModified(1499931773000)
+/home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing.class -> lastModified(1499931773000)
+source stamps:
+3 items
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> hash(2d5c71769566d48def17e646288993d53e7a1608)
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> hash(3550bfbddfa9986d4757d361cf13ac70e77e57b5)
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> hash(d49fdc71546d15891b3c987226fa381eab050125)
+binary stamps:
+8 items
+/home/cai/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> lastModified(1338025419000)
+/home/cai/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar -> lastModified(1450755341000)
+/home/cai/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> lastModified(1450755479000)
+/home/cai/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar -> lastModified(1450755608000)
+/home/cai/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar -> lastModified(1450755302000)
+/home/cai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> lastModified(1425002069000)
+/home/cai/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar -> lastModified(1425002084000)
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> lastModified(1493693502000)
+class names:
+8 items
+/home/cai/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar -> org.apache.log4j.Level
+/home/cai/.ivy2/cache/org.apache.spark/spark-catalyst_2.10/jars/spark-catalyst_2.10-1.6.0.jar -> org.apache.spark.sql.Row
+/home/cai/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar -> org.apache.spark.AccumulatorParam$
+/home/cai/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar -> org.apache.spark.ml.Pipeline
+/home/cai/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar -> org.apache.spark.sql.Column
+/home/cai/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.5.jar -> scala.LowPriorityImplicits
+/home/cai/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.10.5.jar -> scala.reflect.api.TypeCreator
+/usr/lib/jvm/java-8-openjdk-amd64/jre/lib/rt.jar -> java.lang.Object
+internal apis:
+3 items
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwcNEJXQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwh4YigXQABm5vdGlmeXNxAH4ADP+NcDt0AAR3YWl0c3EAfgAMg/RTT3QADSRhc0luc3RhbmNlT2ZzcQB+AAx5k626dAAGZXF1YWxzc3EAfgAMJc2uZHQADGFzSW5zdGFuY2VPZnNxAH4ADMfpHHJ0AAxzeW5jaHJvbml6ZWRzcQB+AAycqFMvdAANJGlzSW5zdGFuY2VPZnNxAH4ADGj7pjN0AARtYWluc3EAfgAMmlZlPnQACW5vdGlmeUFsbHNxAH4ADJvVO3F0AAxpc0luc3RhbmNlT2ZzcQB+AAwVLi6BdAACPT1zcQB+AAyYzTpqdAAFY2xvbmVzcQB+AAzC16P7dAAIdG9TdHJpbmdzcQB+AAymDPBcdAACIT1zcQB+AAyX2yBmdAAIZ2V0Q2xhc3NzcQB+AAxh5pJJdAACbmVzcQB+AAwq1hKvdAACZXFzcQB+AAxw16SpdAAPSW5kZXhBc3NpZ25tZW50c3EAfgAMr1HyZXQAAiMjc3EAfgAMO2Z+yXQACGZpbmFsaXplc3EAfgAMI4fzZHQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AQXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgAxdXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBYc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AXXNxAH4AWHVxAH4APAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AQnEAfgBLdXEAfgBMAAAAAHNxAH4ATgBxAH4AHXVxAH4AUAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBcdAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AXHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AeHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AGV4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AFN0AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AGxbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AFxzcQB+AGt0AAVBcnJheXEAfgBxdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AGt0AAZTdHJpbmdzcQB+AG9zcQB+AHJ1cQB+AHUAAAADc3EAfgB3dAAEamF2YXNxAH4Ad3QABGxhbmdxAH4AfHNxAH4AWHVxAH4APAAAAABzcQB+AFh1cQB+AJAAAAACc3EAfgBrdAAGT2JqZWN0cQB+AJRzcQB+AGt0AANBbnlxAH4AcXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFdOuZw3HVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvaG9tZS9jYWkvSWRlYVByb2plY3RzL2VtVHJhaW4yL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQtXHF2lWbUje8X5kYoiZPVPnoWCA==
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhw9AZ4kQAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAbc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwhgCn9HQAC21vZGVsTG9nQ2Fsc3EAfgAMwG9YWXQACmRhdGFMb2dDYWxzcQB+AAy1vXH1dAAGbm90aWZ5c3EAfgAMgVS1TnQABGxvZzJzcQB+AAy87y2fdAAEd2FpdHNxAH4ADOh3RKR0AA0kYXNJbnN0YW5jZU9mc3EAfgAMwYwi4nQACXNtb290aGluZ3NxAH4ADKHJSNF0AAZlcXVhbHNzcQB+AAxBEEtfdAAMYXNJbnN0YW5jZU9mc3EAfgAMiLNZVnQADHN5bmNocm9uaXplZHNxAH4ADFypxBl0AA0kaXNJbnN0YW5jZU9mc3EAfgAM3HWeN3QABG1haW5zcQB+AAxYin8UdAAJbm90aWZ5QWxsc3EAfgAM7e34CXQADGlzSW5zdGFuY2VPZnNxAH4ADOiZVYd0ABFlbVRyYWluTmFpdmVCYXllc3NxAH4ADDu5fyp0AAI9PXNxAH4ADN4M21V0AAVjbG9uZXNxAH4ADPV2dfV0AAh0b1N0cmluZ3NxAH4ADOnJ14N0AAIhPXNxAH4ADF9P1jx0AAhnZXRDbGFzc3NxAH4ADEBs14N0AAtyZWxhdGl2ZURpZnNxAH4ADFuieil0AAdlbVRyYWluc3EAfgAMHKMkDXQAAm5lc3EAfgAMwy6ri3QAAmVxc3EAfgAMAVgC5HQAAiMjc3EAfgAM/NsbPnQACGZpbmFsaXplc3EAfgAM4KUPSnQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4ATXhyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzl+dh3BMme7MCAAFCAAVmbGFnc3hwAHEAfgA5dXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyACF4c2J0aS5hcGkuQWJzdHJhY3RMYXp5JFN0cmljdExhenkNZhxrKRYquAIAAUwABXZhbHVldAASTGphdmEvbGFuZy9PYmplY3Q7eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgBkc3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AE1MAAlpbmhlcml0ZWRxAH4ATUwAB3BhcmVudHNxAH4ATXhxAH4AaXNxAH4AZHVxAH4ASAAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4ATnEAfgBXdXEAfgBYAAAAAHNxAH4AWgBxAH4AJXVxAH4AXAAAAABzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBodAAEVW5pdHNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AaHNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4AhHVyABpbTHhzYnRpLmFwaS5QYXJhbWV0ZXJMaXN0O/XTOh3ys3DuAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJMaXN01sW8HGRJdOMCAAJaAAppc0ltcGxpY2l0WwAKcGFyYW1ldGVyc3QAHFtMeHNidGkvYXBpL01ldGhvZFBhcmFtZXRlcjt4cAB1cgAcW0x4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyO8+4xV2l3bVtAgAAeHAAAAABc3IAGXhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXIfRa4X00mw6gIABFoACmhhc0RlZmF1bHRMAAhtb2RpZmllcnQAHUx4c2J0aS9hcGkvUGFyYW1ldGVyTW9kaWZpZXI7TAAEbmFtZXEAfgANTAADdHBlcQB+AHF4cAB+cgAbeHNidGkuYXBpLlBhcmFtZXRlck1vZGlmaWVyAAAAAAAAAAASAAB4cQB+AF90AAVQbGFpbnQABGFyZ3NzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AHhbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGhzcQB+AHd0AAVBcnJheXEAfgB9dXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AHd0AAZTdHJpbmdzcQB+AHtzcQB+AH51cQB+AIEAAAADc3EAfgCDdAAEamF2YXNxAH4Ag3QABGxhbmdxAH4AiHNxAH4AZHVxAH4ASAAAAABzcQB+AGR1cQB+AJwAAAACc3EAfgB3dAAGT2JqZWN0cQB+AKBzcQB+AHd0AANBbnlxAH4AfXVyABRbTHhzYnRpLmFwaS5QYWNrYWdlO1sTGTdwpyehAgAAeHAAAAAAc3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFdOv4xsHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0ADkvaG9tZS9jYWkvSWRlYVByb2plY3RzL2VtVHJhaW4yL3RhcmdldC9zY2FsYS0yLjEwL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQ1UL+936mYbUdX02HPE6xw535XtQ==
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlSjH5SdlLSkQCAAdJAAdhcGlIYXNoWgAIaGFzTWFjcm9aABBoYXNQYWNrYWdlT2JqZWN0TAAYX2ludGVybmFsT25seV9uYW1lSGFzaGVzdAAkTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoZXM7TAADYXBpdAAVTHhzYnRpL2FwaS9Tb3VyY2VBUEk7TAALY29tcGlsYXRpb250ABdMeHNidGkvYXBpL0NvbXBpbGF0aW9uO1sABGhhc2h0AAJbQnhwlOGodgAAc3IAInhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoZXNU2r6Z+tTsTAIAAlsAD2ltcGxpY2l0TWVtYmVyc3QAI1tMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2g7WwAOcmVndWxhck1lbWJlcnNxAH4AB3hwdXIAI1tMeHNidGkuYXBpLl9pbnRlcm5hbE9ubHlfTmFtZUhhc2g7SVqAtt2Wi/QCAAB4cAAAAAB1cQB+AAkAAAAVc3IAIHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoWw71InY4V88CAAJJAARoYXNoTAAEbmFtZXQAEkxqYXZhL2xhbmcvU3RyaW5nO3hwP7uFOXQABm5vdGlmeXNxAH4ADDTUYrN0AAR3YWl0c3EAfgAMHvUqlXQADSRhc0luc3RhbmNlT2ZzcQB+AAyQuIlndAAGZXF1YWxzc3EAfgAM/IfcdnQADGFzSW5zdGFuY2VPZnNxAH4ADCEpM2Z0AAxzeW5jaHJvbml6ZWRzcQB+AAw4BdABdAANJGlzSW5zdGFuY2VPZnNxAH4ADG4z1Xt0AARtYWluc3EAfgAM7GclXnQACW5vdGlmeUFsbHNxAH4ADLN4DOh0AA1wcmVwcm9jZXNzaW5nc3EAfgAM8z82EHQADGlzSW5zdGFuY2VPZnNxAH4ADB0htaZ0AAI9PXNxAH4ADCZ8lYx0AAVjbG9uZXNxAH4ADMUEW/t0AAh0b1N0cmluZ3NxAH4ADBPGOkV0AAIhPXNxAH4ADDiIwL50AAhnZXRDbGFzc3NxAH4ADKaa7yJ0AAJuZXNxAH4ADIc2h8Z0AAJlcXNxAH4ADFQF/aJ0AAIjI3NxAH4ADO80HVF0AAhmaW5hbGl6ZXNxAH4ADFW0LUF0AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc5fnYdwTJnuzAgABQgAFZmxhZ3N4cABxAH4AIXVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgAheHNidGkuYXBpLkFic3RyYWN0TGF6eSRTdHJpY3RMYXp5DWYcaykWKrgCAAFMAAV2YWx1ZXQAEkxqYXZhL2xhbmcvT2JqZWN0O3hwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AF1zcQB+AFh1cQB+ADwAAAABc3IADXhzYnRpLmFwaS5EZWZSvp/ifLQ2aQIAAkwACnJldHVyblR5cGV0ABBMeHNidGkvYXBpL1R5cGU7WwAPdmFsdWVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvUGFyYW1ldGVyTGlzdDt4cQB+AEJxAH4AS3VxAH4ATAAAAABzcQB+AE4AcQB+AB11cQB+AFAAAAAAc3IAFHhzYnRpLmFwaS5Qcm9qZWN0aW9u89KNVOlFpC0CAAJMAAJpZHEAfgANTAAGcHJlZml4dAAWTHhzYnRpL2FwaS9TaW1wbGVUeXBlO3hxAH4AXHQABFVuaXRzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AFxzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AHh1cgAaW0x4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdDv10zod8rNw7gIAAHhwAAAAAXNyABd4c2J0aS5hcGkuUGFyYW1ldGVyTGlzdNbFvBxkSXTjAgACWgAKaXNJbXBsaWNpdFsACnBhcmFtZXRlcnN0ABxbTHhzYnRpL2FwaS9NZXRob2RQYXJhbWV0ZXI7eHAAdXIAHFtMeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlcjvPuMVdpd21bQIAAHhwAAAAAXNyABl4c2J0aS5hcGkuTWV0aG9kUGFyYW1ldGVyH0WuF9NJsOoCAARaAApoYXNEZWZhdWx0TAAIbW9kaWZpZXJ0AB1MeHNidGkvYXBpL1BhcmFtZXRlck1vZGlmaWVyO0wABG5hbWVxAH4ADUwAA3RwZXEAfgBleHAAfnIAG3hzYnRpLmFwaS5QYXJhbWV0ZXJNb2RpZmllcgAAAAAAAAAAEgAAeHEAfgBTdAAFUGxhaW50AARhcmdzc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXEAfgBsWwANdHlwZUFyZ3VtZW50c3QAEVtMeHNidGkvYXBpL1R5cGU7eHEAfgBcc3EAfgBrdAAFQXJyYXlxAH4AcXVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAABc3EAfgBrdAAGU3RyaW5nc3EAfgBvc3EAfgBydXEAfgB1AAAAA3NxAH4Ad3QABGphdmFzcQB+AHd0AARsYW5ncQB+AHxzcQB+AFh1cQB+ADwAAAAAc3EAfgBYdXEAfgCQAAAAAnNxAH4Aa3QABk9iamVjdHEAfgCUc3EAfgBrdAADQW55cQB+AHF1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAHNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTrmcNx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdAA5L2hvbWUvY2FpL0lkZWFQcm9qZWN0cy9lbVRyYWluMi90YXJnZXQvc2NhbGEtMi4xMC9jbGFzc2VzdAABL3VyAAJbQqzzF/gGCFTgAgAAeHAAAAAU1J/ccVRtFYkbPJhyJvo4HqsFASU=
+external apis:
+0 items
+source infos:
+3 items
+/home/cai/IdeaProjects/emTrain2/src/main/scala/IndexAssignment.scala -> 
+AAAAAAAAAAA=
+/home/cai/IdeaProjects/emTrain2/src/main/scala/emTrain.scala -> 
+AAAAAAAAAAA=
+/home/cai/IdeaProjects/emTrain2/src/main/scala/preprocessing.scala -> 
+AAAAAAAAAAA=
+compilations:
+32 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXRwWNeV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXRwZ/8J1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTG0vlh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTcy9+F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTc0uK51cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTc1Ma91cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTgi8rB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTglgTF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTgnaY11cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTgoycN1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTgsB5d1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTgxEAV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+12 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTgz09Z1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+13 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTg4qUh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+14 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTg5xct1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+15 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTg7J4F1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+16 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTg/vSZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+17 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThDcXt1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+18 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThE01x1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+19 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThh8cZ1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+20 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThjO8V1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+21 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThmUbF1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+22 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThpFoV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+23 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThxIQl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+24 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXThyaKV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+25 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTh3TZd1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+26 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTrmcNx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+27 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTrowJB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+28 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTrrexh1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+29 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTrv2fl1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+30 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTr4V451cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
+31 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABXTr+MbB1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQAOS9ob21lL2NhaS9JZGVhUHJvamVjdHMvZW1UcmFpbjIvdGFyZ2V0L3NjYWxhLTIuMTAvY2xhc3Nlc3QAAS8=
