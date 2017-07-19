@@ -1,12 +1,9 @@
 import org.apache.spark.ml.Pipeline
 import org.apache.spark.ml.classification.{NaiveBayes, NaiveBayesModel}
-import org.apache.spark.ml.evaluation.MulticlassClassificationEvaluator
 import org.apache.spark.ml.feature.{HashingTF, StopWordsRemover, StringIndexer}
 import org.apache.spark.mllib.linalg.Vector
-//import org.apache.spark.ml.linalg.Vector
 //SparkSession
 import org.apache.spark.sql.{DataFrame, SQLContext}
-
 //import org.apache.spark.sql.expressions.Window
 //import org.apache.spark.sql.functions.row_number
 import org.apache.spark.{SparkConf, SparkContext}
@@ -25,6 +22,10 @@ object emTrain {
   Logger.getLogger("org").setLevel(Level.OFF)
   Logger.getLogger("akka").setLevel(Level.OFF)
   val smoothing = 0.007D    //0.007D
+  val NUM_REPLICATIONS: Int = 10
+  val newSchema = Seq("label", "maxInd")
+  val minImprovement = 0.000001D
+  val maxEpoch = 25
   def main(args: Array[String]){
     //    val spark = SparkSession.builder().appName("naiveBayes").getOrCreate()
     //    import spark.implicits._
@@ -32,63 +33,77 @@ object emTrain {
     val sqlContext = new SQLContext(sc)
     import sqlContext.implicits._
 
-//    val train = spark.read.parquet("/home/cai/DM/output-train")   // label: [0.0, 19.0]
-//    val test = spark.read.parquet("/home/cai/DM/output-test")
-    val train = sqlContext.read.parquet("20NewsGroups/TrainingSet")
-      //.repartition(10)   // label: [0.0, 19.0]
-    val test = sqlContext.read.parquet("20NewsGroups/TestSet")
+//    val train = sqlContext.read.parquet("20NewsGroups/TrainingSet")
+//    val test = sqlContext.read.parquet("20NewsGroups/TestSet")
+//Schema: ID, topic, words, ind
+    val train = sqlContext.read.parquet("/home/cai/DM/TrainingSet")
+    val test = sqlContext.read.parquet("/home/cai/DM/TestSet")
+    val numofTestItems = test.count().toDouble
       //.repartition(10)// label: [0.0, 19.0]
-    //pre-processing
+
+    //-----------------------------pre-processing-----------------------------
     val indexer = new StringIndexer().setInputCol("topic").setOutputCol("label")
     val stopWordsRemover = new StopWordsRemover().setInputCol("words").setOutputCol("keywords")
     val hashingTF = new HashingTF()
       .setInputCol(stopWordsRemover.getOutputCol)
       .setOutputCol("features")//.setNumFeatures(500)
 //    val win = Window.partitionBy("label").orderBy("label")
-
     val naiveBayes = new NaiveBayes()
       .setSmoothing(smoothing)
       .setModelType("multinomial")
       .setLabelCol("label").setFeaturesCol("features")
     val preproPipe = new Pipeline()
       .setStages(Array(stopWordsRemover, hashingTF, indexer))
-    val evaluator = new MulticlassClassificationEvaluator()//.setMetricName("accuracy")
-
+//    val evaluator = new MulticlassClassificationEvaluator()
     val model = preproPipe.fit(train)
-    val corpusTest = model.transform(test)  //Schema: ID, topic, words, label, ind
+    val corpusTest = model.transform(test)  //Schema: ID, topic, words, ind, keywords, features, label
     val corpusTrain = model.transform(train)
-
     val numCate = corpusTest.groupBy()
       .max("label").first().getDouble(0).toInt
 
+    //-----------------------------start EM-----------------------------
+    val minNumTopic = corpusTrain.groupBy("label").max("ind").toDF(newSchema: _*)
+      .groupBy().min(newSchema(1)).first().getDouble(0) + 1
     val NumSupervisedItems = Array[Int](
       1, 2, 4, 8, 16, 32, 64, 128, 256, 512)
     for(numSupervisedItems <- NumSupervisedItems){
-      val labeledTrain = corpusTrain.where($"ind" < numSupervisedItems)
+      println(s"#SUPERVISED ITEMS=$numSupervisedItems")
+      var sumAccSup = 0.0D
+      var sumAcc = 0.0D
+      for(trial <- 1 to NUM_REPLICATIONS) {
+        println(s"TRIAL=$trial")
+        var divideBound = minNumTopic - numSupervisedItems
+        if(divideBound > 0){
+          divideBound = ((divideBound+1)*math.random).toInt
+        }
+        else divideBound = 0
+        val labeledTrain = corpusTrain.where($"ind" >= divideBound && $"ind" < (divideBound + numSupervisedItems))
         //.repartition(10)
-//        .withColumn("rowNum", row_number.over(win))
-//        .where($"rowNum" <= numSupervisedItems).drop("rowNum")
-//        .repartition(10)
-      val unlabeledTrain = corpusTrain.where($"ind" >= numSupervisedItems)
-        .drop("label")
+        val unlabeledTrain = corpusTrain.where($"ind" < divideBound || $"ind" >= (divideBound + numSupervisedItems))
+          .drop("label")
         //.repartition(10)
-//        .withColumn("rowNum", row_number.over(win))
-//        .filter($"rowNum" <= numSupervisedItems)
-//        .drop("rowNum").drop("label")
-//        .repartition(10)
-//      labeledTrain.groupBy("label").count().show()
-      //prediction using EM & NaiveBayes
-      val model = emTrainNaiveBayes(labeledTrain, unlabeledTrain, numCate, sc)
-      val prediction = model.transform(corpusTest)
-      val acc = evaluator.evaluate(prediction)
-      //prediction using supervised classification
-      val supervisedModel = naiveBayes.fit(labeledTrain)
-      val supervisedPrediction = supervisedModel.transform(corpusTest)
-      val accSup = evaluator.evaluate(supervisedPrediction)
+
+        //prediction using EM & NaiveBayes
+        val model = emTrainNaiveBayes(labeledTrain, unlabeledTrain, numCate, sc)
+        val prediction = model.transform(corpusTest)
+
+        //evaluate
+        val acc = AccuracyCal(prediction.select("label", "prediction"), sc, numofTestItems)
+
+        //prediction using supervised classification
+        val supervisedModel = naiveBayes.fit(labeledTrain)
+        val supervisedPrediction = supervisedModel.transform(corpusTest)
+        val accSup = AccuracyCal(supervisedPrediction.select("label", "prediction"), sc, numofTestItems)
+        println(s"Supervised Accuracy: $accSup      EM Accuracy: $acc")
+        println("-----------------------------------------------------------------------------------------------------")
+        sumAccSup += accSup
+        sumAcc += acc
+      }
       //show accuracy
-      println(s"number of supervised items: $numSupervisedItems")
-      println(s"EM F1: $acc")
-      println(s"Supervised F1: $accSup")
+      val meanAccSup = sumAccSup/NUM_REPLICATIONS
+      val meanAcc = sumAcc/NUM_REPLICATIONS
+      println(s"#Sup=$numSupervisedItems     Supervised mean(acc)=$meanAccSup     EM mean(acc)=$meanAcc")
+      println("=====================================================================================================")
       println()
     }
 
@@ -100,14 +115,10 @@ object emTrain {
       .setModelType("multinomial")
       .setLabelCol("label")
       .setFeaturesCol("features")
-    val maxEpoch = 25
-    val minImprovement = 0.000001D
     var lastModel = naiveBayes.fit(labeledTrain)        //features, label ==> prediction
-    //val numCat: Int = labeledTrain.groupBy("label").count().count().toInt;
     var lastLogProb = 1.0D / 0.0
 
-    println("==========================EM start==========================")
-
+//    println("==========================EM start==========================")
     breakable {
       for (epoch <- 1 to maxEpoch) {
         val prediction = lastModel.transform(unlabeledTrain)
@@ -116,8 +127,6 @@ object emTrain {
           .drop(naiveBayes.getProbabilityCol)
         //using the labeled data
         val combinedTrainingSet = prediction.unionAll(labeledTrain)
-//        println(combinedTrainingSet.count())
-//        combinedTrainingSet.show(5)
         val model = naiveBayes.fit(combinedTrainingSet)
         //training finished
 
@@ -134,7 +143,7 @@ object emTrain {
           s"     logProb: $logProb     improvement: $relativeDiff")
         lastModel = model                               //feature, label1, prediction
         if (relativeDiff < minImprovement) {
-          println("Maximum reached.")
+          println("Converged.")
           break
         }
         lastLogProb = logProb
@@ -181,6 +190,16 @@ object emTrain {
   def log2(e:Double): Double ={
     //return math.log(e)/math.log(2)
     math.log(e)/math.log(2)
+  }
+
+  def AccuracyCal(dataFrame: DataFrame, sc: SparkContext, numOfItem: Double): Double ={
+    val accumulator = sc.accumulator(0.0)
+    dataFrame.foreach(x => {
+      if (x.getDouble(0) == x.getDouble(1)){
+        accumulator.add(1)
+      }
+    })
+    accumulator.value/numOfItem
   }
 
 }

@@ -12,8 +12,6 @@
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1.class[0m
 [0m[[0mdebug[0m] [0m	preprocessing.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing.class[0m
-[0m[[0mdebug[0m] [0m	emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class[0m
-[0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class[0m
 [0m[[0mdebug[0m] [0m	IndexAssignment$.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment$.class[0m
 [0m[[0mdebug[0m] [0m	emTrain$$anonfun$modelLogCal$1.class[0m
@@ -26,6 +24,8 @@
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$typecreator1$1.class[0m
 [0m[[0mdebug[0m] [0m	preprocessing$$anonfun$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/preprocessing$$anonfun$1.class[0m
+[0m[[0mdebug[0m] [0m	emTrain$$anonfun$AccuracyCal$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$AccuracyCal$1.class[0m
 [0m[[0mdebug[0m] [0m	emTrain.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain.class[0m
 [0m[[0mdebug[0m] [0m	emTrain$$anonfun$emTrainNaiveBayes$1.class[0m
@@ -36,4 +36,8 @@
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$.class[0m
 [0m[[0mdebug[0m] [0m	IndexAssignment$$anonfun$main$1.class[0m
 [0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/IndexAssignment$$anonfun$main$1.class[0m
+[0m[[0mdebug[0m] [0m	emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$2.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$2.class[0m
+[0m[[0mdebug[0m] [0m	emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
+[0m[[0mdebug[0m] [0m	  /home/cai/IdeaProjects/emTrain2/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class[0m
 [0m[[0minfo[0m] [0mDone packaging.[0m
