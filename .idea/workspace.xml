@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f4da00-83f8-46dc-a3aa-a916dd386172" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/customNumericParser.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/testNewNB.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/IndexAssignment$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/IndexAssignment$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$AccuracyCal$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$AccuracyCal$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1$$anonfun$apply$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/emtrain2_2.10-1.0.jar" afterPath="$PROJECT_DIR$/target/scala-2.10/emtrain2_2.10-1.0.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/IndexAssignment.scala" afterPath="$PROJECT_DIR$/src/main/scala/IndexAssignment.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/emTrain.scala" afterPath="$PROJECT_DIR$/src/main/scala/emTrain.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" afterPath="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,23 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testNewNB.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/testNewNB.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
-              <caret line="85" column="57" lean-forward="false" selection-start-line="85" selection-start-column="57" selection-end-line="85" selection-end-column="57" />
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oldNaiveBayes.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="oldNaiveBayes.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-340">
-              <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+            <state relative-caret-position="1420">
+              <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="e#88#126#0" expanded="true" />
@@ -84,11 +47,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="emTrain.scala" pinned="false" current-in-tab="false">
+      <file leaf-file-name="emTrain.scala" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
+            <state relative-caret-position="320">
+              <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -99,28 +62,8 @@
       <file leaf-file-name="TradNaiveBayesClassifier.class" pinned="false" current-in-tab="false">
         <entry file="file://$USER_HOME$/LingPipeDir/bin/com/aliasi/classify/TradNaiveBayesClassifier.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3800">
-              <caret line="232" column="36" lean-forward="false" selection-start-line="232" selection-start-column="36" selection-end-line="232" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="preprocessing.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/preprocessing.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="40" column="29" lean-forward="false" selection-start-line="40" selection-start-column="29" selection-end-line="40" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexAssignment.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/IndexAssignment.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1120">
-              <caret line="59" column="31" lean-forward="false" selection-start-line="59" selection-start-column="31" selection-end-line="59" selection-end-column="31" />
+            <state relative-caret-position="440">
+              <caret line="392" column="84" lean-forward="false" selection-start-line="392" selection-start-column="84" selection-end-line="392" selection-end-column="84" />
               <folding />
             </state>
           </provider>
@@ -130,17 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>repa</find>
-      <find>prior</find>
-      <find>emtrain</find>
-      <find>visittrain</find>
-      <find>count</find>
-      <find>train</find>
-      <find>tran</find>
-      <find>mMinTokenCount</find>
-      <find>EmIterator</find>
-      <find>mTokenInCategoryPrior</find>
-      <find>unsup</find>
       <find>naivebayes</find>
       <find>com</find>
       <find>numlabels</find>
@@ -152,7 +84,6 @@
       <find>numlabel</find>
       <find>numCate</find>
       <find>traincon</find>
-      <find>traincond</find>
       <find>mLengthNorm</find>
       <find>CompiledBinaryTradNaiveBayesClassifier</find>
       <find>lengthnorm</find>
@@ -160,6 +91,18 @@
       <find>breakable</find>
       <find>naive</find>
       <find>hashing</find>
+      <find>trainsup</find>
+      <find>visitTrain</find>
+      <find>conditional</find>
+      <find>condition</find>
+      <find>JointClassifier</find>
+      <find>classify</find>
+      <find>unsup</find>
+      <find>trainco</find>
+      <find>tokenCounts</find>
+      <find>tokenCounts</find>
+      <find>train</find>
+      <find>traincond</find>
     </findStrings>
     <replaceStrings>
       <replace>weight</replace>
@@ -189,9 +132,9 @@
         <option value="$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/IndexAssignment.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/emTrain.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/testNewNB.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/emTrain.scala" />
       </list>
     </option>
   </component>
@@ -952,14 +895,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/LingPipeDir/bin/com/aliasi/classify/TradNaiveBayesClassifier.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3800">
-          <caret line="232" column="36" lean-forward="false" selection-start-line="232" selection-start-column="36" selection-end-line="232" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/IndexAssignment.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1120">
@@ -973,16 +908,6 @@
         <state relative-caret-position="300">
           <caret line="19" column="27" lean-forward="false" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="29" column="6" lean-forward="false" selection-start-line="29" selection-start-column="6" selection-end-line="29" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1004,13 +929,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/LingPipeDir/bin/com/aliasi/classify/TradNaiveBayesClassifier.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="392" column="84" lean-forward="false" selection-start-line="392" selection-start-column="84" selection-end-line="392" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="70" column="37" lean-forward="false" selection-start-line="70" selection-start-column="37" selection-end-line="70" selection-end-column="37" />
+        <state relative-caret-position="1420">
+          <caret line="71" column="35" lean-forward="false" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="e#88#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="34" column="32" lean-forward="true" selection-start-line="34" selection-start-column="32" selection-end-line="34" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -26,9 +26,9 @@ object emTrain {
   Logger.getLogger("org").setLevel(Level.OFF)
   Logger.getLogger("akka").setLevel(Level.OFF)
   val smoothing = 0.001D    //0.007D
-  val NUM_REPLICATIONS: Int = 1
+  val NUM_REPLICATIONS: Int = 10
   val newSchema = Seq("label", "maxInd")
-  val minImprovement = 0.00001D
+  val minImprovement = 0.0001
   val maxEpoch = 20
   val hashingSize = 40000
 
@@ -65,7 +65,7 @@ object emTrain {
       .setOutputCol(feature)//.setNumFeatures(500)
       .setNumFeatures(hashingSize)
     val naiveBayes = new NaiveBayes()
-      .setSmoothing(0.1)
+      .setSmoothing(smoothing)
       .setModelType("multinomial")
       .setLabelCol(label).setFeaturesCol(feature)
     val preproPipe = new Pipeline()

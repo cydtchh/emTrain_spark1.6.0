@@ -13,6 +13,8 @@ class oldNaiveBayes(private var lambda: Double,private var modelType: String)
   extends NaiveBayes{
   import oldNaiveBayes.{Bernoulli, Multinomial}
 
+  val docLengthNorm = 9.0D
+
   def this(lambda: Double) = this(lambda, NaiveBayes.Multinomial)
 
   def this() = this(1.0, NaiveBayes.Multinomial)
@@ -47,6 +49,7 @@ class oldNaiveBayes(private var lambda: Double,private var modelType: String)
     val numFeatures = data.first().features.size
     //initialization, create the array to save all frequency
     val aggregated = data.map(p => (1.0D, Array(p.features,p.weight))).combineByKey[(DenseVector,Array[DenseVector])](
+      //map each single entry to all possible classes
       createCombiner = (v: Array[Vector]) => {
         if (modelType == Bernoulli) {
           requireZeroOneBernoulliValues(v(1))
@@ -59,9 +62,10 @@ class oldNaiveBayes(private var lambda: Double,private var modelType: String)
           for (i <- 0 until numLabels) {
             if (v(1)(i) >= 0.01D){
               buffArray(i) = v(0).copy.toDense
-              BLAS.scal(v(1)(i), buffArray(i))
+              val lengthNormCatMultiplier = v(1)(i) / lengthMultiplier(v(0))
+              BLAS.scal(lengthNormCatMultiplier, buffArray(i))
               weightCount += v(1)(i)
-              if (weightCount >= 0.98D) break
+              if (weightCount >= 0.99D) break
             }
           }
         }
@@ -73,14 +77,15 @@ class oldNaiveBayes(private var lambda: Double,private var modelType: String)
         breakable {
           for (i <- 0 until numLabels) {
             if (v(1)(i) >= 0.01D) {
+              val lengthNormCatMultiplier = v(1)(i) / lengthMultiplier(v(0))
               if (c._2(i) == null) {
                 c._2(i) = v(0).copy.toDense
-                BLAS.scal(v(1)(i), c._2(i))
+                BLAS.scal(lengthNormCatMultiplier, c._2(i))
               } else {
-                BLAS.axpy(v(1)(i), v(0), c._2(i))
+                BLAS.axpy(lengthNormCatMultiplier, v(0), c._2(i))
               }
               weightCount += v(1)(i)
-              if (weightCount >= 0.98D) break
+              if (weightCount >= 0.99D) break
             }
           }
         }
@@ -110,7 +115,7 @@ class oldNaiveBayes(private var lambda: Double,private var modelType: String)
 //    val lambdaOfPi = lambda * 5
     val piLogDenom = math.log(numDocuments + lambda * numLabels)
 
-    aggregated.foreach { case (_, (n, sumTermFreqs)) =>
+    aggregated.foreach { case (_, (n, sumTermFreqs)) => //only one element contain information of all classes
       for(i <- 0 until numLabels){
         pi(i) = math.log(n(i) + lambda) - piLogDenom
         val thetaLogDenom = modelType match {
@@ -129,6 +134,12 @@ class oldNaiveBayes(private var lambda: Double,private var modelType: String)
     }
 
     new NaiveBayesModel(labels, pi, theta, modelType)
+  }
+
+  def lengthMultiplier(v: Vector): Double ={
+    val docLength = v.toArray.sum
+    if(docLength <= 0) 1.0
+    else docLength
   }
 }
 
