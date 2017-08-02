@@ -57,7 +57,7 @@ object IndexAssignment {
     println(TestSet.count())
     println(TrainingSet.count())
 
-    TrainingSet.repartition(10).write.parquet("/home/cai/DM/TrainingSet")
+    TrainingSet.repartition(200).write.parquet("/home/cai/DM/TrainingSet") //.repartition(10).
     TestSet.repartition(10).write.parquet("/home/cai/DM/TestSet")
   }
 
