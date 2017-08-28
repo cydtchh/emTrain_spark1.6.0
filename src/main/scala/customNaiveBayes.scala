@@ -4,7 +4,7 @@ package org.apache.spark.ml.classification
 import org.apache.spark.ml.util.Identifiable
 import org.apache.spark.mllib.classification.{oldNaiveBayes, NaiveBayesModel => OldNaiveBayesModel}
 import org.apache.spark.rdd.RDD
-import org.apache.spark.mllib.linalg.{DenseMatrix, DenseVector, SparseVector, Vector, Vectors}
+import org.apache.spark.mllib.linalg.{DenseMatrix, Vector, Vectors}
 import org.apache.spark.sql.{DataFrame, Row}
 
 

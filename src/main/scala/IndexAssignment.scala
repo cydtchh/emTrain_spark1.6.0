@@ -23,7 +23,7 @@ object IndexAssignment {
     val arrayOfCat = categorySet.take(numCate)
 
     val indexerAssign = new StringIndexer().setInputCol("ID").setOutputCol("ind")
-    val indexer = new StringIndexer().setInputCol("topic").setOutputCol("label")
+//    val indexer = new StringIndexer().setInputCol("topic").setOutputCol("label")
 
 //    val step1ForTest = indexer.fit(test).transform(test)
 //    val step1ForTrain = indexer.fit(train).transform(train)
