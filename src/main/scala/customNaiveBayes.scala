@@ -14,16 +14,23 @@ import org.apache.spark.sql.{DataFrame, Row}
 class customNaiveBayes extends NaiveBayes{
   val labelSmoothing = 0.5
   val wordSmoothing = 0.01
+//  private var unlabeledWeight = 1.0
+//  private var mySmoothing = 0.001D
+  private var myLabelCol = "label"
+  private var myFeaturesCol = "features"
+//  private var myModelType = "multinomial"
+  private var weight = "weight"
+  private var groundTruth = "groundTruth"
 
   override def train(dataset: DataFrame): NaiveBayesModel = {
     val oldDataSet: RDD[customLabeledPoint] = myExtractLabeledPoints(dataset)
     val oldModel = oldNaiveBayes.train(oldDataSet, $(smoothing), $(modelType))
-    modifyOld(oldModel, this)
+    modifyOld(oldModel, this) //transform old model to new one
   }
 
   def myExtractLabeledPoints(dataset: DataFrame): RDD[customLabeledPoint] = {
-    dataset.select($(labelCol), $(featuresCol), "weight")
-      .map { case Row(label: Double, features: Vector, weight: Vector) => customLabeledPoint(label, features, weight) }
+    dataset.select(myLabelCol, myFeaturesCol, weight, groundTruth)
+      .map { case Row(label: Double, features: Vector, weight: Vector, groundTruth: Double) => customLabeledPoint(label, features, weight, groundTruth) }
   }
 
   def modifyOld(oldModel: OldNaiveBayesModel, parent: NaiveBayes): NaiveBayesModel ={
@@ -35,5 +42,29 @@ class customNaiveBayes extends NaiveBayes{
     new NaiveBayesModel(uid, pi, theta)
   }
 
+  override def setLabelCol(value: String): customNaiveBayes = {
+    this.myLabelCol = value
+    this
+  }
+
+  override def setFeaturesCol(value: String): customNaiveBayes = {
+    this.myFeaturesCol = value
+    this
+  }
+
+  def setWeight(weight: String): customNaiveBayes = {
+    this.weight = weight
+    this
+  }
+
+  def setGroundTruth(groundTruth: String): customNaiveBayes = {
+    this.groundTruth = groundTruth
+    this
+  }
+
+//  def setUnlabeledWeight(unlabeledWeight: Double): customNaiveBayes = {
+//    this.unlabeledWeight = unlabeledWeight
+//    this
+//  }
 }
 

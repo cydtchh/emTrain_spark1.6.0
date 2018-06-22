@@ -9,8 +9,8 @@ import scala.beans.BeanInfo
   * Created by cai on 27.07.17.
   */
 @BeanInfo
-case class customLabeledPoint (label: Double, features: Vector, weight: Vector) {
+case class customLabeledPoint (label: Double, features: Vector, weight: Vector, groundTruth: Double) {
   override def toString: String = {
-    s"($label, $features, $weight)"
+    s"($label, $features, $weight, $groundTruth)"
   }
 }

@@ -2,26 +2,579 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e5f4da00-83f8-46dc-a3aa-a916dd386172" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/emCore.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/improvementCal.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$AccuracyCal$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1$$anonfun$apply$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$dataLogCal$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$emTrainNaiveBayes$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$modelLogCal$2.class" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/IndexAssignment$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/IndexAssignment$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/IndexAssignment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/amazon$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/amazon$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/amazon$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/amazon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/customNumericParser$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/customNumericParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emCore$$anonfun$AccuracyCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emCore.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emTrain$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emTrain$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emTrain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/emTrain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$dirichletLog2Prob$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$lanczosGamma$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$$anonfun$verifyDistro$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/improvementCal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPointBeanInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$myExtractLabeledPoints$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3$$anonfun$apply$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5$$anonfun$apply$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6$$anonfun$apply$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7$$anonfun$apply$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1$$anonfun$apply$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$train$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/preprocessing$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/preprocessing$$typecreator1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/preprocessing$$typecreator2$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/preprocessing$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/preprocessing.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/testNewNB$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/testNewNB$$anonfun$AccuracyCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/testNewNB$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/testNewNB$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/testNewNB.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/twentyNewsGroups$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/twentyNewsGroups$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/classes/twentyNewsGroups.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/scala-2.10/emtrain2_2.10-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/$global/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/packageBin/$global/streams/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/packageBin/$global/streams/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/IndexAssignment$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/IndexAssignment$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/IndexAssignment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/amazon$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/amazon$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/amazon$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/amazon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/customNumericParser$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/customNumericParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emCore$$anonfun$AccuracyCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emCore.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emTrain$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emTrain$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emTrain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/emTrain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$dirichletLog2Prob$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$lanczosGamma$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$$anonfun$verifyDistro$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/improvementCal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPointBeanInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$myExtractLabeledPoints$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3$$anonfun$apply$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5$$anonfun$apply$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6$$anonfun$apply$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7$$anonfun$apply$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1$$anonfun$apply$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$train$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/preprocessing$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/preprocessing$$typecreator1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/preprocessing$$typecreator2$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/preprocessing$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/preprocessing.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/testNewNB$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/testNewNB$$anonfun$AccuracyCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/testNewNB$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/testNewNB$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/testNewNB.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/twentyNewsGroups$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/twentyNewsGroups$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/classes/twentyNewsGroups.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/scala-2.10/emtrain2_2.10-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/$global/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/packageBin/$global/streams/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/packageBin/$global/streams/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/amazon$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/amazon$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/amazon$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/amazon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTestTrain$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTestTrain$$anonfun$main$1$$anonfun$apply$mcVD$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTestTrain$$anonfun$main$1$$anonfun$apply$mcVD$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTestTrain$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTestTrain$$anonfun$main$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTestTrain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTestTrain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$2$$anonfun$apply$mcV$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3$$anonfun$apply$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$9.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twentyNewsGroups$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twentyNewsGroups$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twentyNewsGroups.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twitter1p6$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twitter1p6$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twitter1p6$$anonfun$main$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twitter1p6$$anonfun$main$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twitter1p6$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/twitter1p6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/IndexAssignment$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/IndexAssignment$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/IndexAssignment.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/amazon$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/amazon$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/amazon$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/amazon$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/amazon.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/customNumericParser$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/customNumericParser.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emCore$$anonfun$AccuracyCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emCore.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTestTrain$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTestTrain$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTestTrain$$anonfun$main$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTestTrain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTestTrain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$2$$anonfun$apply$mcV$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1$$anonfun$apply$mcVI$sp$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/emTrain.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$dirichletLog2Prob$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$lanczosGamma$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$$anonfun$verifyDistro$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/improvementCal.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPointBeanInfo.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$myExtractLabeledPoints$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2$$anonfun$apply$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3$$anonfun$apply$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5$$anonfun$apply$3.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6$$anonfun$apply$4.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7$$anonfun$apply$5.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$8.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1$$anonfun$apply$6.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$train$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/preprocessing$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/preprocessing$$typecreator1$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/preprocessing$$typecreator2$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/preprocessing$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/preprocessing.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/testNewNB$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/testNewNB$$anonfun$AccuracyCal$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/testNewNB$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/testNewNB$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/testNewNB.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/twentyNewsGroups$$anonfun$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/twentyNewsGroups$$anonfun$main$1.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/twentyNewsGroups$.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/classes/twentyNewsGroups.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/scala-2.10/emtrain2_2.10-1.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/$global/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/input_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/dependencyPositions/$global/streams/update_cache_2.10/output_dsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/ivySbt/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/projectDescriptors/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/update/$global/streams/update_cache_2.10/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/updateSbtClassifiers/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/$global/$global/discoveredMainClasses/data" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/compile/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/copyResources/$global/streams/copy-resources" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/packageBin/$global/streams/inputs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/packageBin/$global/streams/output" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.10-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/mainClass/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/packageBin/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/test/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/test/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/test/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/.history" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/default/emtrain2_2.11/1.0/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/default/emtrain2_2.11/1.0/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.10-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/default-emtrain2_2.11-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/mainClass/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/packageBin/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/runtime/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/test/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/test/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/test/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/target/streams/test/unmanagedJars/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/amazon.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/emTestTrain.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/twentyNewsGroups.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/scala/twitter1p6.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-compile-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-compile.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-docs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-optional.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-plugin.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-provided.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-runtime-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-runtime.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-scala-tool.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-sources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-test-internal.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/default-emtrain2_2.10-test.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/ivy-report.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/resolution-cache/reports/ivy-report.xsl" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/ivyConfiguration/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/$global/update/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/compileIncremental/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/compileIncremental/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/copyResources/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/mainClass/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/managedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/packageBin/$global/streams/out" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/target1/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/.history" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emCore$.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$1$$anonfun$apply$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2$$anonfun$apply$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$4$$anonfun$apply$3$$anonfun$apply$mcV$sp$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$4$$anonfun$apply$3.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5$$anonfun$apply$4$$anonfun$apply$mcV$sp$2.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5$$anonfun$apply$4.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6$$anonfun$apply$5.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1$$anonfun$apply$6.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/emtrain2_2.11/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/default/emtrain2_2.11/1.0/resolved.xml.properties" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/default/emtrain2_2.11/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/default/emtrain2_2.11/1.0/resolved.xml.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-compile-internal.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-compile-internal.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-compile.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-compile.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-docs.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-docs.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-optional.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-optional.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-plugin.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-plugin.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-pom.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-provided.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-provided.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-runtime-internal.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-runtime-internal.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-runtime.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-runtime.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-scala-tool.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-scala-tool.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-sources.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-sources.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-test-internal.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-test-internal.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.11-test.xml" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/resolution-cache/reports/default-emtrain2_2.11-test.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/$global/$global/dumpStructure/$global/streams/out" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/$global/dumpStructure/$global/streams/out" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/input_dsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/dependencyPositions/$global/streams/update_cache_2.11/output_dsp" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/inputs" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/update/$global/streams/update_cache_2.11/inputs" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.11/output" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/$global/update/$global/streams/update_cache_2.11/output" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/runtime/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/runtime/externalDependencyClasspath/$global/streams/export" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/runtime/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/runtime/managedClasspath/$global/streams/export" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/internalDependencyClasspath/$global/streams/export" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/runtime/unmanagedJars/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/unmanagedClasspath/$global/streams/export" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/test/externalDependencyClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/dependencyClasspath/$global/streams/export" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/test/managedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/externalDependencyClasspath/$global/streams/export" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedClasspath/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/compile/unmanagedJars/$global/streams/export" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/target/streams/test/unmanagedJars/$global/streams/export" afterPath="$PROJECT_DIR$/cai@hadoop3.kbs.uni-hannover.de/streams/runtime/unmanagedClasspath/$global/streams/export" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/db.lck" afterPath="$PROJECT_DIR$/metastore_db/db.lck" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/log.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/log.ctrl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/log1.dat" afterPath="$PROJECT_DIR$/metastore_db/log/log1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" afterPath="$PROJECT_DIR$/metastore_db/log/logmirror.ctrl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c101.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c111.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c121.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c130.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c141.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c150.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c161.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c171.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c180.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c191.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1a1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1b1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1e0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c1f1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c20.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c200.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c211.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c221.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c230.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c31.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c41.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c490.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4a1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4b0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4d1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c4f0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c51.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c510.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c530.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c550.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c570.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c590.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5b0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5d0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c5f0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c60.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c610.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c630.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c650.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c670.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c690.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6b0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6d0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c6f0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c71.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c81.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c840.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c860.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c880.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c8a0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c90.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c920.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c931.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c940.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c951.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c960.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c971.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c981.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c990.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9a1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9b1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9c0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/c9e0.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/ca1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/cb1.dat" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" afterPath="$PROJECT_DIR$/metastore_db/seg0/cf0.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/IndexAssignment$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/IndexAssignment$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emCore$$anonfun$AccuracyCal$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emCore$$anonfun$AccuracyCal$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1$$anonfun$apply$mcV$sp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emCore$$anonfun$emTrainNaiveBayes$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emCore.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emCore.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1$$anonfun$apply$mcVI$sp$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$$anonfun$main$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/emTrain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1$$anonfun$apply$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1$$anonfun$apply$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$dataLogCal$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2$$anonfun$apply$mcVI$sp$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/improvementCal$$anonfun$modelLogCal$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPoint.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPointBeanInfo.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customLabeledPointBeanInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$myExtractLabeledPoints$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes$$anonfun$myExtractLabeledPoints$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/ml/classification/customNaiveBayes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$4.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$myRun$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$train$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$$anonfun$train$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes$.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/org/apache/spark/mllib/classification/oldNaiveBayes.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/testNewNB$$anonfun$main$1.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/testNewNB$$anonfun$main$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/classes/testNewNB$.class" afterPath="$PROJECT_DIR$/target/scala-2.10/classes/testNewNB$.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/scala-2.10/emtrain2_2.10-1.0.jar" afterPath="$PROJECT_DIR$/target/scala-2.10/emtrain2_2.10-1.0.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/update_cache_2.10/output" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" afterPath="$PROJECT_DIR$/target/streams/compile/$global/$global/discoveredMainClasses/data" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/inputs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/derby.log" afterPath="$PROJECT_DIR$/derby.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/emtrain2-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/emtrain2-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/default/emtrain2-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/default/emtrain2-build/scala_2.10/sbt_0.13/0.1-SNAPSHOT/resolved.xml.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-emtrain2-build-compile-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-emtrain2-build-compile-internal.xml" />
@@ -38,9 +591,28 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-emtrain2-build-test-internal.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-emtrain2-build-test-internal.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-emtrain2-build-test.xml" afterPath="$PROJECT_DIR$/project/target/resolution-cache/reports/default-emtrain2-build-test.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/project/target/streams/$global/update/$global/streams/out" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/IndexAssignment.scala" afterPath="$PROJECT_DIR$/src/main/scala/IndexAssignment.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala" afterPath="$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala" afterPath="$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/emCore.scala" afterPath="$PROJECT_DIR$/src/main/scala/emCore.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/emTrain.scala" afterPath="$PROJECT_DIR$/src/main/scala/emTrain.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" afterPath="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.properties" afterPath="$PROJECT_DIR$/target/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/default/emtrain2_2.10/1.0/resolved.xml.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-compile-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-compile-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-compile.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-compile.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-docs.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-docs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-optional.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-optional.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-plugin.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-plugin.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-pom.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-provided.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-provided.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-runtime-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-runtime-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-runtime.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-runtime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-scala-tool.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-scala-tool.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-sources.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-sources.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-test-internal.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-test-internal.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-test.xml" afterPath="$PROJECT_DIR$/target/resolution-cache/reports/default-emtrain2_2.10-test.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/$global/update/$global/streams/out" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/export" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/compileIncremental/$global/streams/out" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" afterPath="$PROJECT_DIR$/target/streams/compile/incCompileSetup/$global/streams/inc_compile_2.10" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" afterPath="$PROJECT_DIR$/target/streams/compile/packageBin/$global/streams/out" />
@@ -62,65 +634,26 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="emTrain2" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="customNaiveBayes.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="oldNaiveBayes.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2980">
-              <caret line="155" column="16" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="emTrain.scala" pinned="false" current-in-tab="true">
+      <file leaf-file-name="emTrain.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="100" column="45" lean-forward="false" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testNewNB.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/testNewNB.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1180">
-              <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+            <state relative-caret-position="1880">
+              <caret line="109" column="72" lean-forward="false" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="preprocessing.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/preprocessing.scala">
+      <file leaf-file-name="amazon.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/amazon.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IndexAssignment.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/IndexAssignment.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+            <state relative-caret-position="1420">
+              <caret line="79" column="16" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -129,11 +662,64 @@
       <file leaf-file-name="emCore.scala" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/emCore.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+            <state relative-caret-position="1040">
+              <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
               <folding>
                 <element signature="e#0#36#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="emTestTrain.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/emTestTrain.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="20">
+              <caret line="145" column="37" lean-forward="false" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="preprocessing.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/preprocessing.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="700">
+              <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="oldNaiveBayes.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twitter1p6.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/twitter1p6.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1298">
+              <caret line="93" column="87" lean-forward="true" selection-start-line="93" selection-start-column="87" selection-end-line="93" selection-end-column="87" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+                <element signature="e#42#81#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twentyNewsGroups.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/twentyNewsGroups.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,36 +728,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>unsup</find>
-      <find>trainco</find>
-      <find>tokenCounts</find>
-      <find>train</find>
-      <find>traincond</find>
-      <find>dirichletLog2Prob</find>
-      <find>statis</find>
-      <find>mCategoryPrior</find>
-      <find>dirichlet</find>
-      <find>log2gamm</find>
-      <find>log2ModelProb</find>
-      <find>datalo</find>
-      <find>logpr</find>
-      <find>dirich</find>
-      <find>datalog</find>
-      <find>v</find>
-      <find>visitTrain</find>
-      <find>mcaseprob</find>
-      <find>log2CaseProb</find>
-      <find>handle</find>
-      <find>emtrain</find>
-      <find>docLengthNorm</find>
-      <find>lambda</find>
-      <find>hard</find>
-      <find>new</find>
-      <find>path</find>
+      <find>filt</find>
+      <find>fit</find>
+      <find>group</find>
+      <find>label</find>
+      <find>groundTruth</find>
+      <find>original</find>
+      <find>160000.0</find>
+      <find>16000</find>
+      <find>breakable</find>
+      <find>unlabeled</find>
+      <find>keyword</find>
+      <find>drop</find>
+      <find>my</find>
+      <find>stopwordli</find>
+      <find>break</find>
+      <find>num</find>
+      <find>indexer</find>
+      <find>ori</find>
+      <find>number of</find>
+      <find>splittingBase</find>
+      <find>certa</find>
+      <find>certaintycal</find>
       <find>repart</find>
-      <find>ind</find>
-      <find>newSchema</find>
-      <find>min</find>
+      <find>hashingTF</find>
+      <find>for</find>
+      <find>map</find>
+      <find>sql</find>
+      <find>ratio</find>
+      <find>weight</find>
+      <find>train</find>
     </findStrings>
     <replaceStrings>
       <replace>weight</replace>
@@ -181,6 +767,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -191,24 +780,29 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.sbt" />
-        <option value="$PROJECT_DIR$/src/main/scala/preprocessing.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/NaiveBayes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/mllibNaiveBayes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/customNumericParser.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/origNaB.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/customBLAS.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/myNaiveBayesModel.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/improvementCal.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/testNewNB.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/customNaiveBayesHardAssignment.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/hardAssignmentNB.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/IndexAssignment.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/classifying/TwentyNewsGroups.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/emCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/TwentyNewsGroups.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/twentyNewsGroups.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/IndexAssignment.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/emTrain.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/preprocessing.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/emCore.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/amazon.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/twitter1p6.scala" />
+        <option value="$PROJECT_DIR$/src/main/scala/emTestTrain.scala" />
       </list>
     </option>
   </component>
@@ -234,7 +828,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -301,11 +894,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="sbt.project.settings.configurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../emTrain_hardAssignment" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../preprocessTwitter" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -625,12 +1219,21 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -644,13 +1247,13 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12884097" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1509434" sideWeight="0.49634275" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12884097" sideWeight="0.5036573" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -658,6 +1261,36 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SBT" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12668464" sideWeight="0.49634275" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291536" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12884097" sideWeight="0.5036573" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -671,68 +1304,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IndexAssignment.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar!/org/apache/spark/sql/DataFrame.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1660">
-          <caret line="83" column="72" lean-forward="true" selection-start-line="83" selection-start-column="72" selection-end-line="83" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1080">
-          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="940">
-          <caret line="61" column="44" lean-forward="true" selection-start-line="61" selection-start-column="44" selection-end-line="61" selection-end-column="44" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.sbt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -763,13 +1334,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/NaiveBayes.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/mllibNaiveBayes.scala" />
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/ml/Predictor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/ml/param/shared/HasFeaturesCol.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
@@ -798,13 +1362,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/ml/classification/NaiveBayes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-core_2.10/jars/spark-core_2.10-1.6.0.jar!/org/apache/spark/rdd/RDD.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
@@ -823,13 +1380,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="700">
           <caret line="35" column="6" lean-forward="false" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/mllib/classification/NaiveBayesModel.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="9" lean-forward="false" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -861,13 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
           <caret line="16" column="25" lean-forward="false" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/LingPipeDir/demos/tutorial/em/src/EmTwentyNewsgroups.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2000">
-          <caret line="134" column="60" lean-forward="true" selection-start-line="134" selection-start-column="60" selection-end-line="134" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -915,33 +1458,75 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/customNaiveBayesHardAssignment.scala" />
     <entry file="file://$PROJECT_DIR$/src/main/scala/hardAssignmentNB.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/classifying/TwentyNewsGroups.scala" />
+    <entry file="file://$USER_HOME$/LingPipeDir/demos/tutorial/em/src/TwentyNewsgroupsCorpus.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="11" column="72" lean-forward="false" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        <state relative-caret-position="-1278">
+          <caret line="62" column="66" lean-forward="true" selection-start-line="62" selection-start-column="66" selection-end-line="62" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TwentyNewsGroups.scala" />
+    <entry file="file://$USER_HOME$/LingPipeDir/demos/tutorial/em/src/EmTwentyNewsgroups.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="48" column="24" lean-forward="false" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/ml/classification/NaiveBayes.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/mllib/classification/NaiveBayesModel.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="22" lean-forward="false" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/IndexAssignment.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-mllib_2.10/jars/spark-mllib_2.10-1.6.0.jar!/org/apache/spark/ml/Predictor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="200">
+          <caret line="10" column="70" lean-forward="false" selection-start-line="10" selection-start-column="70" selection-end-line="10" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala">
+    <entry file="file://$USER_HOME$/LingPipeDir/src/com/aliasi/classify/TradNaiveBayesClassifier.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="6" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="20">
+          <caret line="1289" column="0" lean-forward="false" selection-start-line="1289" selection-start-column="0" selection-end-line="1289" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/preprocessing.scala">
+    <entry file="jar://$USER_HOME$/.ivy2/cache/org.apache.spark/spark-sql_2.10/jars/spark-sql_2.10-1.6.0.jar!/org/apache/spark/sql/functions.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="55" column="26" lean-forward="false" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="4720">
+          <caret line="236" column="6" lean-forward="false" selection-start-line="236" selection-start-column="6" selection-end-line="236" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/customLabeledPoint.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -952,47 +1537,86 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2980">
-          <caret line="155" column="16" lean-forward="false" selection-start-line="155" selection-start-column="16" selection-end-line="155" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/testNewNB.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1180">
-          <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+        <state relative-caret-position="442">
+          <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="109" column="72" lean-forward="false" selection-start-line="109" selection-start-column="72" selection-end-line="109" selection-end-column="72" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/classifying/TwentyNewsGroups.scala" />
-    <entry file="file://$PROJECT_DIR$/src/main/scala/IndexAssignment.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/preprocessing.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="36" column="32" lean-forward="false" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+        <state relative-caret-position="700">
+          <caret line="40" column="64" lean-forward="false" selection-start-line="40" selection-start-column="64" selection-end-line="40" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/emCore.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="48" lean-forward="false" selection-start-line="24" selection-start-column="48" selection-end-line="24" selection-end-column="48" />
+        <state relative-caret-position="1040">
+          <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
           <folding>
             <element signature="e#0#36#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/emTrain.scala">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/amazon.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="100" column="45" lean-forward="false" selection-start-line="100" selection-start-column="45" selection-end-line="100" selection-end-column="45" />
+        <state relative-caret-position="1420">
+          <caret line="79" column="16" lean-forward="false" selection-start-line="79" selection-start-column="16" selection-end-line="79" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/customNaiveBayes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="30" column="6" lean-forward="false" selection-start-line="30" selection-start-column="6" selection-end-line="30" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/oldNaiveBayes.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="61" lean-forward="false" selection-start-line="40" selection-start-column="61" selection-end-line="40" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/emTestTrain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="145" column="37" lean-forward="false" selection-start-line="145" selection-start-column="37" selection-end-line="145" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/twentyNewsGroups.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="30" column="38" lean-forward="false" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/twitter1p6.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1298">
+          <caret line="93" column="87" lean-forward="true" selection-start-line="93" selection-start-column="87" selection-end-line="93" selection-end-column="87" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#42#81#0" expanded="true" />
           </folding>
         </state>
       </provider>

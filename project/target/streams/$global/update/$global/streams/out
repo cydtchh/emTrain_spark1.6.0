@@ -6070,7 +6070,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-sbt#template-resolver;0.1!template-resolver.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.6!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 1178ms :: artifacts dl 39ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 593ms :: artifacts dl 23ms[0m
 [0m[[0mdebug[0m] [0m	report for default#emtrain2-build;0.1-SNAPSHOT compile produced in /home/cai/IdeaProjects/emTrain2/project/target/resolution-cache/reports/default-emtrain2-build-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#emtrain2-build;0.1-SNAPSHOT runtime produced in /home/cai/IdeaProjects/emTrain2/project/target/resolution-cache/reports/default-emtrain2-build-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#emtrain2-build;0.1-SNAPSHOT test produced in /home/cai/IdeaProjects/emTrain2/project/target/resolution-cache/reports/default-emtrain2-build-test.xml[0m
@@ -6084,5 +6084,5 @@
 [0m[[0mdebug[0m] [0m	report for default#emtrain2-build;0.1-SNAPSHOT docs produced in /home/cai/IdeaProjects/emTrain2/project/target/resolution-cache/reports/default-emtrain2-build-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#emtrain2-build;0.1-SNAPSHOT pom produced in /home/cai/IdeaProjects/emTrain2/project/target/resolution-cache/reports/default-emtrain2-build-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for default#emtrain2-build;0.1-SNAPSHOT scala-tool produced in /home/cai/IdeaProjects/emTrain2/project/target/resolution-cache/reports/default-emtrain2-build-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (1178ms resolve - 39ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (593ms resolve - 23ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m
